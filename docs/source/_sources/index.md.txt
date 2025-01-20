@@ -19,6 +19,7 @@ günümüz teknolojisi kullanarak daha güçlü modeller oluşturmaya hazırsan�
 :hidden:
 
 hello
+select_series_softwares/index
 quickstart/index
 transfrom/index
 tools/index

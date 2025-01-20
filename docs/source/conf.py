@@ -5,6 +5,7 @@
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+html_baseurl = "https://leventtasci.github.io/portfolio/"
 import os
 import sys
 from typing import Any, Dict

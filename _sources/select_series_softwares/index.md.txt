@@ -1,16 +1,22 @@
 # Select Serisi Yazılımlarım
 
-Burada anlatılanlar birkaç saat içerisinde tasarıma başlamadan evvel kurulumu tamamlayıp, kendi düzeniniz ile çalışmanızı sağlayacak.
+Yıllar içerisinde, Select Serisi ve InRoads ile proje üretirken-projelerin ihtiyaçları doğrultusunda geliştirdiğim yazılımlarıma buradan ulaşabilirsiniz
 
-This section serves to guide the user with customising Furo-based documentation. This page lists all the theme-specific customisations, as provided by this theme. Other pages in this section provide guidance for making specific customisations when using Sphinx with Furo.
+  - [Plan Sihirbazı](../select_series_softwares/plan_wizard)
+  - [Menfez Sihirbazı](../select_series_softwares/culvert_wizard)
+  - [Hendek Sihirbazı](../select_series_softwares/ditch_wizard)
+  - [Şehir İçi Drenaj Sihirbazı](../select_series_softwares/urban_drainage_wizard)
+  - [Enkesit Sihirbazı](../select_series_softwares/section_wizard)
+  - [Pafta Sihirbazı](../select_series_softwares/sheet_wizard)
+
 
 ```{toctree}
 :hidden:
 index
 plan_wizard
 culvert_wizard
-section_wizard
 ditch_wizard
 urban_drainage_wizard
+section_wizard
 sheet_wizard
 ```

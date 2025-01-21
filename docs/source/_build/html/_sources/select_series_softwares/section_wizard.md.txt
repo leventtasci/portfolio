@@ -1,188 +1,40 @@
-# Konfigürasyon
+# Enkesit Sihirbazı
 
-Openroads Designer neredeyse tamamı ile özelleştirilebilir bir yapıya sahip. Bu bölüm, Openroads'un esnek kişiselleştirme özelliklerini nasıl ayarlayabileceğini öğrenmek isteyenler için temel kavramları içeriyor.
+<div style="overflow: auto;">
 
+  <img src="../_static/section_wizard_ui.png" alt="Section Wizard UI" style="float: left; margin-right: 20px; margin-top: 5px; padding-right: 10px; max-width: 45%; height: auto;">
+  
+  
+<div style="text-align: justify;">
 
-Programı kurduğunuzda, <span style="color: #FF8C00; font-weight: bold;">`C:\ProgramData\Bentley\OpenRoads Designer CE ...\Configuration`</span> adresine, başlangıcı 
-yapabilmeniz Bentley tarafından hazırlanan bir paket eklendi (`...` sizin kullandığınız versiyona göre değişir).
+<h2 style="margin-top: 0;">Neden?</h2>
 
+Yol tasarımı sonucunda elde edilen enkesitlerden gelen  üstyapı ve şev kazık bilgilerini raporlamak ve bu raporları, hesapların ardından enkesitler üzerinde tablolamak oldukça zaman alan bir iştir. Bu konuda kullanılan yaygın kodlar tek tipte son ürün oluşturmaktadırlar ve MSAccsess’i veri tabanı olarak kullanmaktadırlar. Yaygın olan kodları ve yöntemleri kullanan tasarımcı, mühendisliğin temel aracı olan Excel’e ulaşıncaya kadar birden fazla adım atar, kübaj hesap sonuçlarını kesitlere çizim olarak aktarırken de birçok safhadan geçer; veriler birçok dosyaya kopyalanır ve özelleştirilemez kalıplarda bir proje ürünü ortaya çıkar. Bu ürünler uluslararası projelerde hizmet veremez.
+ 
 
-Bu bölümde, Bentley'e ait seti kullanarak, bilgisayarımızda bir çalışma alanı yaratacağız. Amacımız konfigürasyon dosyalarının temel görevlerini kavramak, daha fazlası değil. 
-Daha sonraki bölümde detayları daha iyi anlaşılır bir sistem üzerinde ilerleyeceğiz ve o sistem üzerinde çalışacağız. Şu aşamada tüm dosyaların ve klasörlerin içerisinde kaybolmaktansa yalnızca şuna odaklanalım: 
-- Konfigürasyon (`.cfg`) dosyaları nasıl kullanıyor?
+  ## Sonuç
 
-
-## Konfigürasyon Dosyaları
-
-Konfigurasyon (`.cfg`) dosyalarının iki temel görevi var:
-- **Yönlendirme:** Programı kullanırken size lazım olan tüm dosya ve klasörlerin adreslerini tutmak. Openroads designer `.cfg` dosyalarındaki bu adresleri okuyarak tüm kaynaklara ve projelerinize ulaşacak.
-- **Ayarlar:** Kardinal nokta kısaltmaları, profil view'larında düşey abartı seçenekleri vb. gibi detay ayarları tutmak.
-
-
-## Yönlendirme
-
-2. ve 3. adımlarda,sol taraf eski, sağ taraf son hali belirtir.
+  - Kesit Sihirbazı ile kullanıcı, hiçbir ara yazılıma ihtiyaç duymaksızın, kübaj ve üstyapı verilerini özelleştirilebilir formatlarda yönetir.
+  - Biri excel, diğeri microstation üzerinde  ikili set olarak çalışan kesit sihirbazı, kesitlerden alınan xml raporlarını Excel’de, kullanıcının kendi belirlediği kolonlara yazar. 
+  - Bu veriler ile kübaj hesaplarını tamamlayan kullanıcı, enkesit çizimlerine işlenmesini istediği kolonları ve  bu kolonların cell içerisindeki konumlarını kesit sihirbazında adresler. Kesit sihirbazı adreslenen excel kolonlarını enkesitlere aktarır.
 
 
-Adımlarda kullanılan simgeler: 
-- Karşısında `➔` simgesi olan dosya veya klasörler __yeniden__ __adlandırılacak__.
-- Karşısında `➾` simgesi olan dosya veya klasörler __değişirilmeyecek__. 
-- <del>Üzeri çizili dosya veya klasörler</del> __silinecek__.
-### 1. Adım: Bentley Örneğinden Kopya Oluşturma
-<span style="color: #FF8C00; font-weight: bold;">`C:\ProgramData\Bentley\OpenRoads Designer CE ...\Configuration`</span> klasörü içerisindeki:
-<span style="color: #FF8C00; font-weight: bold;">`Organization-Civil`</span>  ve <span style="color: #FF8C00; font-weight: bold;">`WorkSpaces`</span> klasörlerini ve `WorkSpaceSetup.cfg` dosyasını çalışmak istediğimiz konuma kopyalayalım ve yeniden adlandıralım. 
-Örnekte bu klasör ve dosyalar <span style="color: #FF8C00; font-weight: bold;">`C:\AnaKlasor`</span> adresine kopyalandı.
+## Öne Çıkan Özellikleri
+
+  - End–Area Volume raporlarını kolayca filtreleyip, gerekli bilgileri, excel’de istenilen kolona alır.
+  - Belirlenen dgn-cell içerisine istenilen excel kolon bilgisini yazabilir. Excel-çizim bağlantısı bu derece kolay olduğundan farklı formatlardaki projeler için de uygundur, zaten en başta bu amaçla üretilmiştir.
+  - Inroads’a bağlı olarak çalışır, enkesit setlerine bu şekilde ulaşır.  Çoklu enkesit çizimlerinde hızlı sonuç alınır.
+  - Enkesit çizimlerinde sunulan bilgilere (kırmızı-siyah kot vb) ait başlıkları cell olarak çizme seçeneği de mevcuttur; bu özellik yine yurtdışı projelerde, farklı dillerde çizim sunabilmek için eklenmiştir: Örneğin dgn-cell içerisine 2 satır olarak ingilizce ve yerel dilde başlık yazılır ve Kesit sihirbazı bu cell’i kesitlere iletir. Benzer bir çift satırlı uygulamayı, inroads ile tek işlemde yapmak mümkün değildir.
+
+## Geliştirici Notları
+
+Özbekistan-Taşken’te bulunan bir kavşak için  hazırlanan üstyapı yenileme projesinde, proje gereksinimleri doğrultusunda geliştirilmiştir. Henüz KGM projelerinde kullanılmamıştır fakat kullanılmasında bir engel yoktur.
+Kübaj işlerinde diş kazısı hesap ve çizimleri, hala yaygın olan metodlarla yapılmaktadır.Bu iş kaleminin de Kesit Sihirbazı’na dahil edilmesi planlanmaktadır.
 
 
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <!-- Column 1 content -->
-    <details open>
-      <summary>📁 ...\Configuration</summary>
-      <pre>
-├─  ...
-├──📁Organization-Civil        ➔
-├──📁WorkSpaces                ➔
-└──🗒️WorkSpaceSetup.cfg        ➔
-      </pre>
-    </details>
-  </div>
-  <div style="flex: 1;">
-    <!-- Column 2 content -->
-    <details open>
-      <summary>📁 C:\AnaKlasor</summary>
-      <pre>
-│
-├──📁OrganizasyonIsmi
-├──📁Projeler
-└──🗒️Yonlendirme.cfg
-      </pre>
-    </details>
-  </div>
 </div>
 
-### 2. Adım: OrganizasyonIsmi Klasörü
-<span style="color: #00FFFF; font-weight: bold;">`OrganizasyonIsmi`</span> klasöründe aşağıdaki değişiklikleri yapalım. Bu klasörün sonuç içeriğinde iki `klasör` ve bir `.cfg` dosyası yer alacak.
 
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <!-- Column 1 content -->
-    <details open>
-      <summary>📁 C:\AnaKlasor\OrganizasyonIsmi</summary>
-      <pre>
-│
-├──📁<del>_Civil Default Standards - Imperial</del>     	  
-├──📁_Civil Default Standards - Metric      	➔   
-├──📁Preference Seeds                         	➾   
-├──🗒️<del>_Civil Default Standards - Imperial.cfg</del>   
-├──🗒️_Civil Default Standards - Metric.cfg  	➔   
-└──<del>Var ise diğer dosya ve klasörler</del>   
-      </pre>
-    </details>
-  </div>
-  <div style="flex: 1;">
-    <!-- Column 2 content -->
-    <details open>
-      <summary>📁 C:\AnaKlasor\OrganizasyonIsmi</summary>
-      <pre>
-│
-│
-├──📁Standartlar
-├──📁Preference Seeds
-│
-└──🗒️Standartlar.cfg
-      </pre>
-    </details>
-  </div>
 </div>
-
-### 3. Adım: Projeler Klasörü
-Projeler klasörünü açalım ve aşağıdaki düzenlemeyi yapalım. Bu klasörün sonuç içeriğinde üç `klasör` ve bir `.cfg` dosyası yer alacak.
-
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <!-- Column 1 content -->
-    <details open>
-      <summary>📁 C:\AnaKlasor\Projeler</summary>
-      <pre>
-├──📁<del>Imperial Standards</del>
-├──📁Metric Standards         	  ➔
-├──📁NoWorkSpace              	  ➾
-├──📁Template                	  ➾
-├──🗒️<del>Imperial Standards.cfg</del>
-├──🗒️Metric Standards.cfg     	  ➔
-├──🗒️<del>Training and Examples.cfg</del> 
-└──<del>Var ise diğer dosya ve klasörler</del>
-      </pre>
-    </details>
-  </div>
-  <div style="flex: 1;">
-    <!-- Column 2 content -->
-    <details open>
-      <summary>📁 C:\AnaKlasor\Projeler</summary>
-      <pre>
-│
-├──📁OrganizasyonProjeleri
-├──📁NoWorkSpace
-├──📁Template
-│
-└──🗒️OrganizasyonProjeleri.cfg 
-      </pre>
-    </details>
-  </div>
-</div>
-
-### 4. Adım: Konfigürasyon Dosyalarının Düzenlenmesi
-Bu madde altında yaptıklarımızı toparlayalım.
-
-#### Yonlendirme.cfg
-Openroads Designer, açılışta ilk olarak bu dosyayı okuyacak ve aşağıdaki sorunların cevaplarına ulaşacak:
-1. Proje üreteceğiniz organizasyona ait standartlar hangi klasörde? (`MY_CIVIL_ORGANIZATION_ROOT`)
-2. Projeler klasörünüz nerede? (`MY_WORKSPACES_LOCATION`)
-3. Klasör oluşturma görevleri neler?
-   - Yeni bir Projeler seti oluşturduğunuzda hangi klasör setleri oluşturulsun?
-   - Yeni bir Proje oluşturduğunuzda hangi klasör setleri oluşturulsun?
-4. Program tercihlerinizi (preferences) nereden okumalıyım? 
-
-
- `C:\AnaKlasor` klasöründeki  `Yonlendirme.cfg` dosyasını açıp aşağıdaki değişiklikleri yapalım:
- ```{hint}
-Konfigüraston dosyalarında, `hash` sembolü (`#`) ile başlayan satırlar Openroads Designer tarafından dikkate alınmaz.
-```
-- Openroads Designer, kullandığı değişkenlerin çoğunluğunu `OrganizasyonIsmi` olarak belirlediğimiz klasöründen okuyacak.
-Halihazırda zaten Bentley gerekli değişkenleri giriş için hazırlamış fakat önlerinde `hash` (`#`) sembolü var. Bu sembolü kaldırıp
-`MY_CIVIL_ORGANIZATION_ROOT` değişkenini aşağıdaki hale getirelim:
-   - ```
-     MY_CIVIL_ORGANIZATION_ROOT = C:/AnaKlasor/OrganizasyonIsmi/
-     ```
-
-- Projelerin tutulacağı klasörü tanıtalım:
-   - ```
-     MY_WORKSPACES_LOCATION = C:/AnaKlasor/Projeler/
-     ```
-Şu aşamada başka bir değişiklik yapmamız gerekmiyor, ileride bu `.cfg` dosyasının içeriğini nasıl düzenleyebileceğimiz konusunu başka örnekler ile detaylandıracağız.
-Dosyayı kaydedip kapatabiliriz.
-
-```{important}
-- `.cfg` dosyalarını düzenlerken klasör ayıraç işaretlerinin (`/`) şeklinden ve adresin sonuna da bu ayıracın konulduğundan emin olunmalıdır. Aşağıdaki örnekleri inceleyiniz.
-
-    - `C:\AnaKlasor\OrganizasyonProjeleri\` hatalı, `C:/AnaKlasor/OrganizasyonProjeleri/` olmalı
-    - `C:/AnaKlasor/OrganizasyonProjeleri` hatalı, `C:/AnaKlasor/OrganizasyonProjeleri/` olmalı
-```
-#### OrganizasyonProjeleri.cfg
-Projelere ait konfigürasyon dosyasında, projelerde hangi standardın kullanacağı, `CIVIL_ORGANIZATION_NAME` değişkenini ayarlayarak tarif edilmelidir.
-`OrganizasyonProjeleri.cfg` dosyasını açıp aşağıdaki değişikliği yapalım:
-   - ```
-     CIVIL_ORGANIZATION_NAME = OrganizasyonIsmi
-     ```
-```{important}
-- Burada `CIVIL_ORGANIZATION_NAME` değişkenine verilen değerin, klasör adresi değil klasör ismi olduğuna dikkat edelim.
-```
-
-### 5. Adım: Openroads
-
-
-
-
 
 

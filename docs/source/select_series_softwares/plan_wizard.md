@@ -1,12 +1,22 @@
 # Plan Sihirbazı
 
 <div style="overflow: auto;">
-  <img src="../_static/plan_wizard_ui.png" alt="Plan Wizard UI" style="float: left; margin-right: 20px; padding-right: 10px; max-width: 40%; height: auto;">
+
+<div style="position: relative; width: 100%; max-width: 800px; height: 450px; margin: 0 auto; min-height: 300px;">
+  <iframe
+    src="https://www.youtube.com/embed/H6Sz0n6x9Hw"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
+</div>
+
+  <img src="../_static/plan_wizard_ui.png" alt="Plan Wizard UI" style="float: left; margin-right: 20px; margin-top: 5px; padding-right: 10px; max-width: 40%; height: auto;">
   
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden</h2>
+<h2 style="margin-top: 0;">Neden?</h2>
 
   Güzergah işlerinden sorumlu teknik personeller, deveri, eksen bilgilerini, some bilgilerini, güzergah ile ilgili aplikasyon tablolarını, plan üzerine yazılacak kilometre-koordinat içeren bilgileri farklı kodlar veya manuel olarak yapmaya çalışırlar.
   Bu konuda yaygın olarak kullanılan yazılımların çoğunluğu tek bir yeteneğe sahiptir, çoğu Inroads ile bağlantılı çalışmaz; çalışma metodları rapor alma ve rapor okutma şeklindedir ve projelere özgü özelleştirilemezler veya toplu bir çözüm sunamazlar.
@@ -30,11 +40,16 @@
   - Kilometre eşitliklerini her ürettiği çizim ve raporda dikkate alır.
   - Seçilen noktaya en yakın gridi üreten, özelleştirilebilir traking yapabilen, tüm yazıları bakış yönüne göre çevirebilen, platform ölçü çizgilerini çizebilen, yön göstergesini (kuzey’i kendisi bulur, kullanıcı cell’I çevirmez) yerleştiren, otomatik olarak girilen kilometreden koordinat ve kot hesaplayarak farklı formatta notlar yazabilen, projelerdeki neredeyse tüm plan işlerini yapabilen araçları içerisinde barındırır.
 
+<div style="position: relative; width: 100%; max-width: 800px; height: 450px; margin: 0 auto; min-height: 300px;">
+  <iframe
+    src="https://www.youtube.com/embed/gAemGhnM_0Y"
+    frameborder="0"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  ></iframe>
 </div>
 
-
-
-
+</div>
 
 
 </div>

@@ -2,27 +2,44 @@
 hide-toc: true
 ---
 
-# ORD Cookbook
+# Merhaba
 
-Buradaki tarifler, Openroads Designer'a hızlı bir başlangıç yapmak ve ileri seviyeye çabuk ulaşmayı sağlayacaktır.
-Tarifler, daha önce inroads SS2 kullanlananlar için doyurucudur, zaten alışkın oldukları Bentley tasarım ortamında
-günümüz teknolojisi kullanarak daha güçlü modeller oluşturmaya hazırsanız adım adım içeriği takip ediniz.
+Mesleki ihtiyaçlarım doğrultusunda yıllar içerisinde geliştirdiğim yazılımlar ve mühendislik çalışmalarımın detayları hakkında bu siteden bilgi alabilirsiniz.
 
-## Neden Openroads Kullanmalıyım ? 
- 
-```{include} ../README.md
-:start-after: <!-- start elevator-pitch -->
-:end-before: <!-- end elevator-pitch -->
-```
+  - [Select Serisi Yazılımlarım](../select_series_softwares/index)
+
+  - [Connect Serisi Yazılımlarım](../connect_series_add_ins/index)
+
+  - [Connect Serisi Konfigürasyonlarım](../connect_series_configuration/index)
+
+  - [Connect Serisi Kütüphaneler](../connect_series_library/index)
+
+  - [Connect Serisi Civil Cell](../connect_series_civil_cell/index)
+
+  - [.Net Desktop Uygulamalarım](../desktop_applications/index)
+
+  - [Yeni Teknolojide Hangi Noktadayım](../current_technology/index)
+
+  - [İnşaat Mühendisliği Tecrübelerim](../civil_engineer_portfolio/index)
+
+  - [Paylaşımlarım](../shared_content/index)
+
+
+
+
+
+
+
 
 ```{toctree}
 :hidden:
-
-hello
 select_series_softwares/index
-quickstart/index
-transfrom/index
-tools/index
-design101/index
-template/index
+connect_series_add_ins/index
+connect_series_configuration/index
+connect_series_library/index
+connect_series_civil_cell/index
+desktop_applications/index
+current_technology/index
+civil_engineer_portfolio/index
+shared_content/index
 ```

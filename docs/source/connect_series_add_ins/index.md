@@ -1,9 +1,11 @@
 # Connect Serisi Yazılımlarım
 
-Yeni teknoloji için geliştirdiğim add-in'lere buradan ulaşabilirsiniz.
+Connect serisinin .Net-C# ile daha da güçlü hale getirilmesi mümkün. Bu bölümde Connect Serisi için geliştirdiğim yazılımlara ulaşabilirsiniz 
+
+  - [TRSign Panel](../connect_series_add_ins/trsign)
 
 ```{toctree}
 :hidden:
 index
 trsign
-```
+``

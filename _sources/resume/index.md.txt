@@ -17,7 +17,7 @@ Mesleki ihtiyaçlarım doğrultusunda, yıllar içerisinde **VBA** ile birçok [
 Ayrıca başlangıç seviyesinde **Python** bilgim var ve herhangi bir programlama diline hızla adapte olabilirim.  
 
 2023 Mayıs ayında şirketimi devretmemin ardından, gelişen mühendislik teknolojisine entegre olmak ve yazılım üretmek amacı ile Bentley Systems Türkiye Distribütöründe **“Yazılım Geliştirme Danışmanı”** olarak görev aldım.  
-Bu süreçte, çağın gereksinimi olan [**BIM**’e yönelik kaynak üretimi ve yönetimi stratejilerini](../connect_series_preperation/index) tecrübe ettim.
+Bu süreçte, çağın gereksinimi olan [**BIM**’e yönelik kaynak üretimi ve yönetimi stratejilerini](../connect_series_background/bentley_systems_distributor) tecrübe ettim.
 
 [**Word formatında özgeçmişimi indirmek için tıklayınız**](https://python.org/).
 

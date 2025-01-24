@@ -1,0 +1,104 @@
+# Bentley Systems Türkiye Distribütörü için Ürettiklerim
+
+## Ana başlıklar
+Haziran 2023 - Şubat 2025 arasında, bir Bentley Systems Türkiye distribütörü firma için, connect serisi programların kullanılabilmesi için gerekli araç, ayar ve konfigürasyonları oluşturdum.
+Distribütör için çalışmaya başladığım Haziran 2023'te, Türkiye'de henüz bir çalışma var olmadığından, boş bir klasör ile başladığım serüvene yaklaşık 5400 saat mesai ayırdım. 
+Yaptığım çalışmalara ait ana başlıklar ve bu başlıklara ayırdığım sürelerin yüzde olarak dağılımını aşağıda incelemeniz mümkün.
+Genel olarak "Dökümantasyon Eksikliği" 'nden kaynaklı olarak, tüm aşamalarda "Deneme-Yanılma" ile ilerledim denebilir.
+
+## Kütüphaneler
+
+Programın çalışabilmesi için gerekli olan **ana kütüphane**leri, "Türkçe" olarak, Türkiye ve AASHTO standartlarını dikkate alarak oluşturdum:
+
+ - Tanım ve Semboloji Kütüphaneleri
+ - Kesit Şablon Kütüphanesi
+ - Dever Hesap Kütüphanesi
+ - Tasarım Standartları Kütüphanesi
+ - Görünüm Stili Kütüphanesi
+ - Menü Kütüphanesi
+ - Paftalama Kütüphaneleri
+ - Bilgi Yazdırma Kütüphanesi
+ - Civil Cell kütüphaneleri
+
+## Konfigürasyon
+
+Connect Serisi programları için hazırlanmış kütüphaneler, kullanıcıların bilgisayarlarına kopyalanarak kullanılmıyor
+Kütüphaneler, her bir kullanıcıya "salt okunur" olarak iletiliyor. Programlar kütüphanelerin içeriklerini okuyabiliyor fakat kullanıcı kütüphaneleri değiştiremiyor.
+
+Şöyle düşünün: InRoads'ta her bir projeye çeşitli dosyaları kopyalayarak başlıyorsunuz (örneğin itl, xin vb). 
+Bilgisayarınızda ve çeşitli hardisk/flashdisk'lerinizde toplam kaç edet itl veya xin dosyanız var?
+Buna bir de firmanızda çalışan tüm arkadaşlarınızı ekleyin, toplam sayı nedir?
+
+Connect serisinde, program çalıştırıldığında, önceden ayarlanmış olan kesit kütüphanesi tüm kullanıcıların önüne "salt okunur" olarak iletilen tek bir kütüphanedir.
+Bunun gibi, tüm tabaka, çizim ayarları, hesap dosyaları da tek noktadan kullanıcıların önüne otomatik olarak ulaşır. Her bir kütüphaneden 1 adet bulunur. Kullanıcılar bu kütüphaneleri değiştiremez ama kullanabilir.
+Peki bir "Demiryolu Proje Mühendisi" 'nin önüne de karayolu kütüphaneleri mi ulaşıyor? Demiryolu konusunda bir kütüphane üretimi yapmasam da şunu söylemem mümkün: Arazi ve toprak işleri ile ilgili kütüphaneler karayolu ve demiryolu projeleri için ortaktır
+Bu tür kütüphaneler karayolu ve demiryolu ekipleri tarafından paylaşılır. Kütüphaneleri oluştururken bu sebeple "ortak olanlar", "yalnızca karayolu" gibi ayrımlara gittim.
+
+Ayrıca programın ihtiyaç duyduğu onlarca ayar dosyasının da kullanıcıya yine "salt okunur" olarak iletilmesi gerekiyor.
+
+Konfigürasyon sistemleri işte bu işe yarıyor, yani tüm ayar ve kütüphaneleri, kullanıcılara iletmeye.
+Peki bu nasıl bir düzen? Kütüphanelerde veya bir ayar değişikliği gereksiniminde bu değişiklik nasıl ve kim tarafından yapılır?
+Connect Serisi programları, arka planda daima birkaç sorumlunun çalışmasını ve sistemi takip etmesini gerektirir.
+Sorumlular geri planda gerekli eklentileri yapar, kullanıcıları ekler/çıkarır, tüm sistemi tüzel kişiliğin ihtiyacı olacak şekilde zaman içerisinde yapılandırır ve gereksinimler doğrultusunda modifiye eder.
+
+Distribütör firma'da "Onay Makamı" ve "Proje Firması" isimlerinde iki ana konfigürasyon sistemi oluşturdum.
+Programın çalışması için gerekli ayarları ve kütüphaneleri bu iki konfigürasyon sistemi ile birleştirdim. Bu iki sistem, GoogleDrive üzerinde çalışan bir mekanizmaya sahip.
+Modifiye edilebilir özellikteler ve birbirlerine de bağlanabilirler.
+
+## Metodoloji
+
+Elbette sadece yukarıdakilere sahipseniz ve programın metotlarına hakim değilseniz proje üretmeniz de mümkün olmayacaktır. Bentley Systems, kullanıcılarına ücretsiz olarak "Learn" başlığı altında hemen hemen her konuda dersler sunuyor.
+Tek bir konu olarak dikkate alırsanız dersler oldukça başarılı denebilir. Fakat tüm bir projeyi oluşturabilmeniz için birçok değişkeni bir araya getirmeniz, onlarca metodu kullanmanız ve **bir düzene** sahip olmanız gerekir.
+Örneğin hemen hemen her tasarım biriminin birer grafik olarak karşınızda olduğu ve referanslama ile dosyalar arasında aktarılabildiği bir tasarım programında, **Dosya Yönetimi** büyük önem taşıyor.
+Bunlara ilave olarak uzun ve yoğun bir yol modelinin ortalama bir bilgisayarda nasıl yönetilmesi gerektiğine ilişkin hazır bir cevap ta bulmanız mümkün değil.
+
+Mevcut örnekler, son ürün açısından yalnızca 3D tasarım çıkartan çok da alışık olmadığımız bir görüntü sergiliyor. Metodoloji çalışmalarımı yürütürken oluşturduğum civil cell'leri hem 3D modeli, hem de 2D modeli birbirlerine bağlı olacak şekilde tasarladım.
+Bu sayede Türkiye ve çevre ülkelerde yıllardır ürettiğimiz proje görünümünü de yakalayabildim. InRoads'ta yıllardır kullandığım tasarım metotlarını civil cell haline getirerek yeni teknolojiye uyarlamaya çalıştım.
+
+Bir YouTube kanalı oluşturdum ve 2 kavşak içeren somut bir proje üzerinde, ürettiğim civil cell'leri kullanarak ilerledim. 
+Süreç oldukça faydalıydı ve zaman içerisinde YouTube'da pek de örneği olmayan 24 videoluk bir seri meydana geldi. Bu kanalda yalnızca çözümlere değil, süreçte karşılaştığım sorunlara ve bu sorunların çözümlerinde de değinmeye çalıştım.
+
+
+## Yazılımlar
+
+### Connector
+
+Kullanıcıların sisteme ulaşmasını sağlamak için KULLANICI tarafında:
+
+ - Connect Serisi programlarını kurduğum sisteme bağlar
+ - Video izleme mekanizması içerir
+ - Doküman okuma mekanizması içerir
+ - Duyuruları ve üyeleri tablolaştırır ve kullanıcılara sunar
+
+### Admin Panel
+
+Sistemi yönetebilmek için Admin tarafında:
+
+ - Uygun API'leri kullanarak kullanıcılar ile yapılan paylaşımları otomasyona ile yapan,
+ - Her bir kullanıcı için üretilmesi gereken konfigürasyon dosyalarını otomatik oluşturan
+   bir yazılımdır.
+*Bir yönetim programı olduğundan buradan bir arayüz görüntüsü paylaşmam doğru olmaz*
+
+
+### ORD Indexer
+
+2023'te boş bir dgn içerisinde, program için gerekli tanım (f. definition, f. symbology, element template, levels) girişlerini yapmanın çok uzun süren bir iş olduğunu fark ettim.
+Ayrıca eğer tanımları tek tek oluşturursanız, genel şemanızı iyi planlayamıyorsunuz.
+Buradan yola çıkarak tanım kütüphanelerini excel ile etkileşimli olarak oluşturan ORD Indexer'ı yazdım.
+Şemanızı excel'de kuruyorsunuz ve tanım girişlerinizi ORD Indexer arayüzüne yapıyorsunuz. Program size 3 adet xml ve bir adet csv dosyası sunuyor.
+Bu dosyalar OpenRoads/OpenRail içerisine import ile alınabiliyor.
+
+
+## Sonuçlar
+
+Distribütör için çalıştığım dönemde Faz-1 ile belirttiğim noktaya ulaştım. 
+
+Faz-2'ye ulaştığımda program ile proje üretebilmek mümkün olacak, fakat bu faza "Hibrit Dönem" denebilir:
+ - Şev Tarama
+ - Some ve Eksen Bilgileri
+konularını InRoads ve Select Serisi VBA kodları ile tamamlamayı planlıyorum.
+
+Faz-3'e ulaştığımda ise artık InRoads'a ve eski teknolojiye ihtiyaç kalmadan projeler 
+
+
+

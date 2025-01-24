@@ -8,13 +8,13 @@ Mesleki ihtiyaçlarım doğrultusunda yıllar içerisinde geliştirdiğim yazıl
 
   - [Öz Geçmişim](../resume/index)
 
+  - [Connect Serisi için Ürettiklerim](../connect_series_background/index)
+
   - [Select Serisi Yazılımlarım](../select_series_softwares/index)
 
   - [Connect Serisi Yazılımlarım](../connect_series_add_ins/index)
 
   - [.Net Desktop Uygulamalarım](../desktop_applications/index)
-
-  - [Connect Serisi Konfigürasyonlarım](../connect_series_preperation/index)
 
   - [Yeni Teknolojide Hangi Noktadayım](../current_technology/index)
 
@@ -24,18 +24,13 @@ Mesleki ihtiyaçlarım doğrultusunda yıllar içerisinde geliştirdiğim yazıl
 
 
 
-
-
-
-
-
 ```{toctree}
 :hidden:
 resume/index
+connect_series_background/index
 select_series_softwares/index
 connect_series_add_ins/index
 desktop_applications/index
-connect_series_preperation/index
 current_technology/index
 civil_engineer_portfolio/index
 shared_content/index

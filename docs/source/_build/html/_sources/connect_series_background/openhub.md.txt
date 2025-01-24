@@ -1,0 +1,3 @@
+# OpenHub
+
+Burada, oluşturmaya başladığım, yarı-açık kaynaklı olmasını planladığım platformumu tanıtacağım. Henüz yapım aşamasında...

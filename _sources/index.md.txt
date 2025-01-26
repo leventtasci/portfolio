@@ -14,9 +14,7 @@ Mesleki ihtiyaçlarım doğrultusunda yıllar içerisinde geliştirdiğim yazıl
 
   - [Connect Serisi Yazılımlarım](../connect_series_add_ins/index)
 
-  - [.Net Desktop Uygulamalarım](../desktop_applications/index)
-
-  - [Yeni Teknolojide Hangi Noktadayım](../current_technology/index)
+  - [Masaüstü Uygulamalarım](../desktop_applications/index)
 
   - [İnşaat Mühendisliği Tecrübelerim](../civil_engineer_portfolio/index)
 
@@ -31,7 +29,6 @@ connect_series_background/index
 select_series_softwares/index
 connect_series_add_ins/index
 desktop_applications/index
-current_technology/index
 civil_engineer_portfolio/index
 shared_content/index
 ```

@@ -1,13 +1,11 @@
-# .Net - C# Yazılımlarım
+# Masaüstü Yazılımlarım
 
-Geliştirdiğim .Net uygulamaları hakkında buradan bilgi alabilirsiniz.
+Geliştirdiğim masaüstü uygulamalarım hakkında buradan bilgi alabilirsiniz.
+
+  - [FireAdmin](../desktop_applications/fireadmin)
 
 ```{toctree}
 :hidden:
 index
-connector
-admin_panel
-ord_indexer
 fireadmin
-authbase
 ```

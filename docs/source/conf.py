@@ -150,3 +150,8 @@ if FONT_AWESOME_TESTING:
         },
     ]
 
+html_context = {
+    "theme": {
+        "dark": False,  # Forces light mode by default
+    }
+}

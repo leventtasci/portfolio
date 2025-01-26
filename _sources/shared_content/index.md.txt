@@ -1,9 +1,9 @@
 # Paylaşımlarım
 
-Herkesle paylaştığım, kendi üretimim olan temel mühendislik araçlarına ve mühendislik teknolojisi ile ilgili yaptığım araştırmalara buradan ulaşabilirsiniz.
+Açık kaynaklı olarak ürettiğim bazı temel mühendislik araçlarına ve mühendislik teknolojisi ile ilgili yaptığım araştırmalara buradan ulaşabileceksiniz.
 
 ```{toctree}
 :hidden:
 index
-aashto_method5
+
 ```

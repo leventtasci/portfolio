@@ -18,7 +18,7 @@ Mesleki ihtiyaçlarım doğrultusunda, yıllar içerisinde **VBA** ile birçok [
 2023 Mayıs ayında şirketimi devretmemin ardından, gelişen mühendislik teknolojisine entegre olmak ve yazılım üretmek amacı ile Bentley Systems Türkiye Distribütöründe **“Yazılım Geliştirme Danışmanı”** olarak görev aldım.  
 Bu süreçte, çağın gereksinimi olan [**BIM**’e yönelik kaynak üretimi ve yönetimi stratejilerini](../connect_series_background/bentley_systems_distributor) tecrübe ettim.
 
-[**Word formatında özgeçmişimi indirmek için tıklayınız**](https://drive.google.com/uc?export=download&id=1-bD7MdI8iFYGq8j7QGK4YdJuHaXz4OPL)
+<a href="https://drive.google.com/uc?export=download&id=1-bD7MdI8iFYGq8j7QGK4YdJuHaXz4OPL" download><strong>Word formatında özgeçmişimi indirmek için tıklayınız</strong></a>
 
 </div>
 

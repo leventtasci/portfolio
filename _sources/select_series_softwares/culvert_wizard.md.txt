@@ -15,7 +15,7 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Tespitler</h2>
+<h2 style="margin-top: 0;">Gözlemler</h2>
 
 Yaygın olarak kullanılan, menfez kesit ve plan yerleşimlerini yapan iki farklı program mevcuttur. Birisi “küçük”tipteki sanat yapılarını 2D yerleştiren, diğeri büyük tipteki menfezleri 3D yerleştiren, başka yetekleri bulunmayan, her ikisi de yaygın bir mühendislik programı olmayan MSAccess programını veri tabanı olarak kullanan kodlardır. Bu kodlar, Inroads ile bağlantılı çalışmazlar, girdileri Inroads’tan alınan text ve/veya xml formatlı raporlardır. 
 

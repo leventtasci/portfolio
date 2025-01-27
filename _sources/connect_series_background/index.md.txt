@@ -7,7 +7,6 @@ Bu bölümde, hem Bentley Systems'in Türkiye distribütörü için çalıştı�
 
 ```{toctree}
 :hidden:
-index
 bentley_systems_distributor
 openhub
 ```

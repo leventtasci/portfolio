@@ -15,11 +15,11 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
 Yaygın olarak kullanılan, menfez kesit ve plan yerleşimlerini yapan iki farklı program mevcuttur. Birisi “küçük”tipteki sanat yapılarını 2D yerleştiren, diğeri büyük tipteki menfezleri 3D yerleştiren, başka yetekleri bulunmayan, her ikisi de yaygın bir mühendislik programı olmayan MSAccess programını veri tabanı olarak kullanan kodlardır. Bu kodlar, Inroads ile bağlantılı çalışmazlar, girdileri Inroads’tan alınan text ve/veya xml formatlı raporlardır. 
 
-  ## Sonuç
+  ## Başardıkları
   - Kutu menfezler ile ilgili başka bir yardımcı araca ihtiyaç duymaksızın tam bir çözüm sunar. Metraj için başka, paftalama hizmetleri için başka yazılımlar gerekmez. Proje menfezlerini, bir bütün olarak son ürün haline getirir.
   - Menfez Sihirbazı, her iki tipteki (küçük ve büyük) menfezler için 3D olarak çalışır ve hiçbir rapora gerek duymaksızın doğrudan Inroads’a bağlanarak kesit ve güzergah bilgisini okur. Bu durum çalışmalardaki hatayı azaltır ve hızı arttırır.
   - Veri tabanı, KGM kaynakları analiz edilerek detaylı bir formatta excel’de oluşturulmuştur, kabulleri bellidir (kuyu vb.) ve kapsamı mühendisler tarafından genişletilebilir.

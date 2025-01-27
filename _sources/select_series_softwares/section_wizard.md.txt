@@ -7,12 +7,12 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
 Yol tasarımı sonucunda elde edilen enkesitlerden gelen  üstyapı ve şev kazık bilgilerini raporlamak ve bu raporları, hesapların ardından enkesitler üzerinde tablolamak oldukça zaman alan bir iştir. Bu konuda kullanılan yaygın kodlar tek tipte son ürün oluşturmaktadırlar ve MSAccsess’i veri tabanı olarak kullanmaktadırlar. Yaygın olan kodları ve yöntemleri kullanan tasarımcı, mühendisliğin temel aracı olan Excel’e ulaşıncaya kadar birden fazla adım atar, kübaj hesap sonuçlarını kesitlere çizim olarak aktarırken de birçok safhadan geçer; veriler birçok dosyaya kopyalanır ve özelleştirilemez kalıplarda bir proje ürünü ortaya çıkar. Bu ürünler uluslararası projelerde hizmet veremez.
  
 
-  ## Sonuç
+  ## Başardıkları
 
   - Kesit Sihirbazı ile kullanıcı, hiçbir ara yazılıma ihtiyaç duymaksızın, kübaj ve üstyapı verilerini özelleştirilebilir formatlarda yönetir.
   - Biri excel, diğeri microstation üzerinde  ikili set olarak çalışan kesit sihirbazı, kesitlerden alınan xml raporlarını Excel’de, kullanıcının kendi belirlediği kolonlara yazar. 

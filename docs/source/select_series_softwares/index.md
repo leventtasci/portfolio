@@ -12,7 +12,6 @@ Yıllar içerisinde, Select Serisi ve InRoads ile proje üretirken-projelerin ih
 
 ```{toctree}
 :hidden:
-index
 plan_wizard
 culvert_wizard
 ditch_wizard

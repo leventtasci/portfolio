@@ -6,6 +6,5 @@ Geliştirdiğim masaüstü uygulamalarım hakkında buradan bilgi alabilirsiniz.
 
 ```{toctree}
 :hidden:
-index
 fireadmin
 ```

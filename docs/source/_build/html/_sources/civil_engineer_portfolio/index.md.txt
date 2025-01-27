@@ -6,6 +6,5 @@ On altı yıl boyunca görev aldığım projelere ait detaylara buradan ulaşabi
 
 ```{toctree}
 :hidden:
-index
 civil_projects
 ```

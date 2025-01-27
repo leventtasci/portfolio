@@ -22,11 +22,7 @@ Trafik işaretleme ve trafik güvenliği projeleri için trafik bilgi panellerin
 
   ### Yaygın Olarak Kullanılan Yazılımların ve Güncel Teknoloji Ürünlerinin Olmaması
 
-Türkiye'de trafik bilgi paneli çizimlerini dwg veya dgn formatında (*) yapan bir yazılım bulunmamaktadır.
-Trafik bilgi panelleri, çoğunlukla teknik operatörler veya mühendisler tarafından microstation veya autocad ortamında manuel olarak çizilir.
-TrueType yazı tipi, işletim sistemleri için en yaygın font biçimidir, platformlar arası kullanılabilir. Türkiye'de trafik bilgi panelleri için TrueType font tanımları bulunmamaktadır.
-*Türkiye'de yerel bir yazılımda trafik bilgi panelleri oluşturan bir modül mevcuttur. Bu yazılım Türkiye'de yaygın olarak kullanılamamaktadır ve dgn & dwg ile tam olarak uyumlu olmayan kendi dosya formatlarına sahiptir.
-
+Türkiye'de trafik bilgi paneli çizimlerini dwg veya dgn formatında (*) yapan bir yazılım bulunmamaktadır. Trafik bilgi panelleri, çoğunlukla teknik operatörler veya mühendisler tarafından microstation veya autocad ortamında manuel olarak çizilir. TrueType yazı tipi, işletim sistemleri için en yaygın font biçimidir, platformlar arası kullanılabilir. Türkiye'de trafik bilgi panelleri için TrueType font tanımları bulunmamaktadır.
 
   ### Üretim Hataları
 
@@ -35,19 +31,20 @@ Her firma ve/veya mühendis, trafik panellerindeki yazı tipleri ve öğeler iç
   ### Uygulama Hataları
 Türkiye'de trafik bilgi panelleri için standartlar mevcuttur, ancak özellikle belediye alanlarında standart olmayan panelleri herkes farkedebilir. Bu durum büyük ölçüde, standartları ve teknik bilgileri tümleştiren yazılımların eksikliğinden kaynaklanmaktadır.
 
-  ## Amaç
+  ## Başardıkları
 
-Türkiye'deki trafik işaretleme ve trafik güvenliği projeleri için trafik bilgi panelleri oluşturabilen ve aşağıdaki özellikleri taşıyan  bir yazılım oluşturmak:
-  - Güncel Programlama dilleri ile yazılmış, gelecekte oluşabilecek ihtiyaçlar için genişletilebilir,
-  - Standartlaştırılmış dijital kütüphaneler ve tarifler
-  - Türk Standartlarında tanımlanan TrueType yazı fontları
-  - Kullanıcı dostu ve kolay erişilebilir arayüz
-  - ASCII formatında kolay düzenlenebilir ve düşük boyutlu aşağıdakilere imkan verecek dosya yapısı:
-  	- Dosyaları ihtiyaca göre sunucularda depolamak
-  	- Platformlar arası kullanım
-  	- Çizimin kendisinin değil, verilerin verimli bir şekilde saklanması ve paylaşılması
-  - Bu yazılım tarafından üretilen panel dosyaları için bir kütüphane yaratıcısı
-  - Türk Standartlarının yanı sıra uygulama bilgisine de dayalı yapı.
-  - Çizim formatları arasında verimli dönüşüm (dgn-dwg)
+Türkiye'deki trafik işaretleme ve trafik güvenliği projeleri için trafik bilgi panelleri oluşturabilen ve aşağıdaki özellikleri taşıyan bu yazılım:
+  - Güncel programlama dilleri ile yazılmış, gelecekte oluşabilecek ihtiyaçlar için genişletilebilir,
+  - Standartlaştırılmış dijital kütüphaneler ve tarifler içerir
+  - Türk Standartlarında tanımlanan TrueType yazı fontlarını içerir
+  - Kullanıcı dostu ve kolay erişilebilir arayüze sahiptir
+  - ASCII formatında kolay düzenlenebilir ve düşük boyutlu aşağıdakilere imkan verecek dosya yapısına sahiptir, bu durum:
+  	- Dosyaları ihtiyaca göre sunucularda depolamayı
+  	- Platformlar arası kullanımını
+  	- Çizimin kendisinin değil, verilerin verimli bir şekilde saklanması ve paylaşılmasını
+olanaklı kılar.
+  - Bu yazılım tarafından üretilen panel dosyaları için bir kütüphane yaratıcısı mevcuttur
+  - Türk Standartlarının yanı sıra proje tecrübelerini de içerir
+  - Çizim formatları arasında verimli dönüşüme (dgn-dwg) imkan verecek paneller ortaya çıkarır
 
 </div>

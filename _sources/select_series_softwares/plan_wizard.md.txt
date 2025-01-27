@@ -16,12 +16,12 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
   Güzergah işlerinden sorumlu teknik personeller, deveri, eksen bilgilerini, some bilgilerini, güzergah ile ilgili aplikasyon tablolarını, plan üzerine yazılacak kilometre-koordinat içeren bilgileri farklı kodlar veya manuel olarak yapmaya çalışırlar.
   Bu konuda yaygın olarak kullanılan yazılımların çoğunluğu tek bir yeteneğe sahiptir, çoğu Inroads ile bağlantılı çalışmaz; çalışma metodları rapor alma ve rapor okutma şeklindedir ve projelere özgü özelleştirilemezler veya toplu bir çözüm sunamazlar.
 
-  ## Sonuç
+  ## Başardıkları
 
   - Plan Sihirbazı, güzergah işlerinde tasarımcının eksen ile ilgili tüm çalışmalarında yardımcıdır; Dever hesaplarını  **AASHTO** ve  **KGM** ’nin çakışan kurplar için yayınladığı yönetmeliklere uygun olarak yapar. Dever ve kurp genişletme hesapları Plan Sihirbazı’nda iç içedir. Kurp genişletmeler seçilen araçlara göre hesaplanır, abaklardan okutulmaz. Çalışmalar excel’de yürütülür ve some bilgileri de excel’den çizime aktarılır. Çalışmaları kolaylaştıran, Inroads’un içerisinde bulunmayan, özelleştirilebilir tracking seçeneğine sahiptir.
   - Inroads ile bağlantılı çalışır.

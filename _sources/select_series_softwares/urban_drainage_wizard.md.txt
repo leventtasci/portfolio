@@ -8,12 +8,12 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
 Storm&Sanitary’de yerleştirilmiş boru-baca sistemlerini KGM formatında hidrolik hesap sayfasına aktaran, bu sistemlerin kapasite hesaplarını yapan, metrajı ve sistemlere ait aplikasyon bilgilerini de beraber sunan bir yazılım gereksinimi üzerine tasarlanmıştır. 
  
 
-  ## Sonuç
+  ## Başardıkları
 
 Tasarımcı S&S’den aldığı raporu sihirbaza okutarak, yalnızca hidrolik hesabını yapar. Metraj ve sistemlere ait aplikasyon bilgileri sihirbaz tarafından otomatik olarak çıktı formatında hazırlanır. Hızlı sonuç alındığından, iteratif bir çalışma olan boru-baca sistemlerinin tasarımını kolaylaştırır. 
 

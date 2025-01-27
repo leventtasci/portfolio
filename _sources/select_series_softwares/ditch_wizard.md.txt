@@ -16,13 +16,13 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
 Kafa, topuk, yarma, palye hendeklerinin hesap ve çizimleri, oldukça vakit alan ve yoğun iş gücü gerektiren “Drenaj” başlığının en önemli pozlarından birisidir.
 Bu konuda, uluslararası standartta yaygın bir proje üretim aracı bulunmamaktadır. Storm & Sanitary dahilindeki araçlar imalat projeleri için yeterli detayları üretememektedir.
  
 
-  ## Sonuç
+  ## Başardıkları
 
   - Hendek Sihirbazı, boyuna drenajdaki tüm hendeklerinin hesap, metraj ve çizimlerinin tamamını yapar. 
   - Hesaplar, uluslararası standartları da içerir (Spesifik enerji, shear stress, düşü vb.)

@@ -7,7 +7,7 @@
   
 <div style="text-align: justify;">
 
-<h2 style="margin-top: 0;">Neden?</h2>
+<h2 style="margin-top: 0;">Tespitler</h2>
 
   - İyi bir mühendislik çalışmasının ardından hazırlanmış hata barındıran yaprak paftalar, o işe harcanmış mühendislik hizmetinin de sorgulanmasına sebep olabilir.
   - Yaprak pafta oluşturma ve detay işleme süreçlerini Excel ile kontrol ederek yürüten,  verilerden giderek sunum paftalarını yaratabilen yaygın bir yazılım bulunmamaktadır. Inroads’ta Plan-Profile Generator bölümünden de toplu olarak KGM formatında bir sonuç almak mümkün değildir.
@@ -15,7 +15,7 @@
 
  
 
-  ## Sonuç
+  ## Başardıkları
 
 Pafta Sihirbazı, iki ana birimden oluşur: ilki yaprak paftaları excel vasıtasi ile oluşturan ve  detaylarını işleyen Pafta Yaratıcı’dır. İkinci birim ise yaprak paftalarda profil bölümüne işlenen çizgisel bilgileri ve yaprak pafta ortasındaki şevlerle ilgili bantları işleyen Pafta Detayları birimidir
 
